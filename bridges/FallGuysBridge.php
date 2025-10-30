@@ -7,7 +7,7 @@ class FallGuysBridge extends BridgeAbstract
     const BASE_URI = 'https://www.fallguys.com';
     const URI = self::BASE_URI . '/news';
     const CACHE_TIMEOUT = 600; // 10min
-    const DESCRIPTION = 'News from the Fall Guys website test 5';
+    const DESCRIPTION = 'News from the Fall Guys website';
     const DEFAULT_LOCALE = 'en-US';
     const PARAMETERS = [
         [
@@ -124,7 +124,7 @@ class FallGuysBridge extends BridgeAbstract
             $item = [
                 'uid' => $newsItem->id,
                 'uri' => $newsItemUrl,
-                'title' => $newsItemTitle,
+                'title' => 'test 6 ' . $newsItemTitle,
                 'timestamp' => $newsItem->activeDate,
                 'content' => $content,
                 'enclosures' => $contentImages,
