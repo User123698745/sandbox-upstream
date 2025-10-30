@@ -1,4 +1,4 @@
-# RSS-Bridge test 2
+# RSS-Bridge test 3
 
 ![RSS-Bridge](static/logo_600px.png)
 
