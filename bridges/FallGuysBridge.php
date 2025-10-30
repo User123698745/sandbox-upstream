@@ -124,7 +124,7 @@ class FallGuysBridge extends BridgeAbstract
             $item = [
                 'uid' => $newsItem->id,
                 'uri' => $newsItemUrl,
-                'title' => 'test 6 ' . $newsItemTitle,
+                'title' => 'test 7 ' . $newsItemTitle,
                 'timestamp' => $newsItem->activeDate,
                 'content' => $content,
                 'enclosures' => $contentImages,
